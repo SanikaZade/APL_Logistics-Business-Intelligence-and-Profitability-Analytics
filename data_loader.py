@@ -4,7 +4,7 @@ import streamlit as st
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("APL_Logistics.csv", encoding="latin-1")
+    df = pd.read_csv("APL_Logistics.csv", encoding="latin-1") 
 
     # Clean numeric columns
     num_cols = [
