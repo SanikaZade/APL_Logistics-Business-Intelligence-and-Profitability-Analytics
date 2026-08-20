@@ -6,6 +6,7 @@ import streamlit as st
 def load_data():
     df = pd.read_csv("APL_Logistics.csv", encoding="latin-1") 
 
+    
     # Clean numeric columns
     num_cols = [
         "Benefit per order", "Sales per customer", "Order Item Discount",
