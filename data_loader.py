@@ -15,6 +15,7 @@ def load_data():
         "Order Item Total", "Order Profit Per Order", "Product Price",
         "Days for shipping (real)", "Days for shipment (scheduled)"
     ]
+
     for col in num_cols:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
