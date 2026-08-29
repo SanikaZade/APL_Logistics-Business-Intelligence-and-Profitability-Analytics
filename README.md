@@ -1,5 +1,7 @@
 # 🚢 Customer, Product, and Profitability Performance Analysis in Supply Chain Operations
 
+Live Project - https://apllogistics-business-intelligence-and-profitability-analytics.streamlit.app/
+
 > **APL Logistics Business Intelligence & Profitability Analytics Dashboard**  
 > An interactive, enterprise-grade data analytics application engineered with **Streamlit**, **Pandas**, and **Plotly** to evaluate supply chain efficiency, customer lifetime value, product margin health, discount erosion, and regional logistics performance across **180,519+ order records**.
 ---
